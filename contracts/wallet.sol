@@ -8,9 +8,7 @@ contract EtherWallet {
     constructor() {
         owner = payable(msg.sender);
     }
-
     receive() external payable {}
-
     modifier onlyOwner() {
         require(
             msg.sender == owner,

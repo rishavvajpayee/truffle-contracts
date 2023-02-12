@@ -15,6 +15,6 @@ visit https://trufflesuite.com/ganache/ to install
 
 # Note
 All you port integrations are wriiten in truffle-config.js
-if your ganache is hosted on a different RPC server tha listed in the config file replace the Server Configurations.
+if your ganache is hosted on a different RPC server than listed in the config file replace the Server Configurations.
 
 Thanks 👍
